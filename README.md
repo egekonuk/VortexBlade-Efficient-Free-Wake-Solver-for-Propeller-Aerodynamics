@@ -1,6 +1,6 @@
 # VortexBlade: A High-Fidelity Free-Wake Solver for Propeller Aerodynamics
 
-![VortexBlade Showcase](https://github.com/user-attachments/assets/3ab02815-5df5-4a92-b018-612111ecc945)
+<img width="1024" height="1024" alt="VortexBlade Logo" src="https://github.com/user-attachments/assets/77bc0471-584e-447a-8ddc-cbee6d75a04d" />
 
 **VortexBlade is an advanced aerodynamic analysis tool that implements a three-dimensional, unsteady free-wake vortex method to deliver high-fidelity performance predictions for propellers and rotors. By simulating the full wake development, it overcomes the inherent limitations of traditional BEMT-based approaches, especially in complex flow conditions.**
 
@@ -43,13 +43,13 @@ VortexBlade is built on a first-principles approach to fluid dynamics. Unlike si
 
 The intuitive GUI gives you full control over every aspect of the simulation, from propeller selection and flight conditions (velocity, angle of incidence) to the numerical details of the wake discretization and vortex core model.
 
-![VortexBlade-Window](https://github.com/user-attachments/assets/3341133c-198a-443a-907d-3391ddf8106c)
+<img width="3006" height="1874" alt="CleanShot 2025-07-22 at 11 37 31@2x" src="https://github.com/user-attachments/assets/8ffdb36c-6d27-41a1-b33d-f9a11af6aa48" />
 
 ### Live Wake Visualization
 
 Gain a deep understanding of the propeller's aerodynamic environment by observing the wake structure evolve in real-time. The interface displays the 3D vortex filaments trailing from the blades, the solid propeller geometry, and a 2D slice of the induced velocity field simultaneously.
 
-![ExBEMT_Contours](https://github.com/user-attachments/assets/0156d7ad-16bb-47e4-99ee-b95519d3c28e)
+
 
 ---
 
