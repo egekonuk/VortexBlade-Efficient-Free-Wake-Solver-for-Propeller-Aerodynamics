@@ -49,6 +49,8 @@ The intuitive GUI gives you full control over every aspect of the simulation, fr
 
 ### Live Wake Visualization
 
+https://github.com/user-attachments/assets/9059d387-2025-40d8-8dd0-6631dacbcbb5
+
 Gain a deep understanding of the propeller's aerodynamic environment by observing the wake structure evolve in real-time. The interface displays the 3D vortex filaments trailing from the blades, the solid propeller geometry, and a 2D slice of the induced velocity field simultaneously.
 
 
