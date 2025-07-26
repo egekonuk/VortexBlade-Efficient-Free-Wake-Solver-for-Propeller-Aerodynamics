@@ -1,10 +1,10 @@
-# VortexBlade: A High-Fidelity Free-Wake Solver for Propeller Aerodynamics
+# VortexBlade: A Mid-Fidelity Free-Wake Solver for Propeller Aerodynamics
 
 <p align="center">
 <img width="512" height="512" alt="VortexBlade Logo" src="https://github.com/user-attachments/assets/77bc0471-584e-447a-8ddc-cbee6d75a04d" />
 </p>
 
-**VortexBlade is an advanced aerodynamic analysis tool that implements a three-dimensional, unsteady free-wake vortex method to deliver high-fidelity performance predictions for propellers and rotors. By simulating the full wake development, it overcomes the inherent limitations of traditional BEMT-based approaches, especially in complex flow conditions.**
+**VortexBlade is an advanced aerodynamic analysis tool that implements a three-dimensional, unsteady free-wake vortex method to deliver Mid-fidelity performance predictions for propellers and rotors. By simulating the full wake development, it overcomes the inherent limitations of traditional BEMT-based approaches, especially in complex flow conditions.**
 
 ---
 
