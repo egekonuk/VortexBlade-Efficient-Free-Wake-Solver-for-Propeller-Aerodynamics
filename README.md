@@ -72,8 +72,8 @@ VortexBlade is an actively developed platform. Key features planned for future r
 ### Prerequisites
 
 * A computer capable of running the provided VortexBlade executable.
-* **XFOIL:** The executable (`xfoil.exe` for Windows) must be included in the `XFOIL` folder within the application directory.
-* **Propeller Packages:** Propeller geometries must be placed in the `Propeller Packages` folder.
+* **XFOIL:** The executable (`xfoil.exe` for Windows) is included in the inside the application.
+* **Propeller Packages:** Propeller geometries must be placed in the `Propeller Packages` folder, following the structure defined above.
 
 ### Installation & Running
 
@@ -81,7 +81,7 @@ At this time, VortexBlade is being distributed as a standalone executable.
 
 1.  **Download:** Obtain the application package.
 2.  **Unzip:** Extract the contents to a folder on your computer.
-3.  **Run:** Execute the `VortexBlade_GUI_FWM.exe` file.
+3.  **Run:** Execute the `VortexBlade.exe` file.
 
 ---
 
@@ -101,11 +101,28 @@ At this time, VortexBlade is being distributed as a standalone executable.
 VortexBlade is designed for flexibility. To analyze your own propeller, create a new folder inside the `Propeller Packages` directory. This folder must contain:
 
 1.  **`Prop_sections.xlsx`:** An Excel file defining the blade geometry. The solver reads the file according to the following structure:
-    * **Row 2:** Non-dimensional span location for each section (`x/R`).
-    * **Row 3:** Chord length (`c`) in meters for each section.
-    * **Row 4:** Twist angle (`β`) in degrees for each section.
-    * **Row 5:** The name of the corresponding airfoil `.dat` file (without the extension).
+    * **Row 2 (Orange):** Non-dimensional span location for each section (`x/R`).
+    * **Row 3 (Orange):** Chord length (`c`) in meters for each section.
+    * **Row 4 (Orange):** Twist angle (`β`) in degrees for each section.
+    * **Row 5 (Yellow):** The name of the corresponding airfoil `.dat` file (without the extension).
 
 2.  **`foils` (folder):** A sub-folder containing the airfoil `.dat` coordinate files for each section used in the propeller design.
 
-Restart the GUI, and your new propeller will automatically appear in the dropdown menu.
+### Required Folder Structure:
+
+For the solver to correctly load your propeller, your folder inside `Propeller Packages` must look like this:
+
+
+Propeller Packages/
+
+└── Your_Propeller_Name/
+
+├── Prop_sections.xlsx
+
+└── foils/
+├── airfoil1.dat
+├── airfoil2.dat
+└── ...
+
+
+
