@@ -45,9 +45,11 @@ VortexBlade is built on a first-principles approach to fluid dynamics. Unlike si
 
 The intuitive GUI gives you full control over every aspect of the simulation, from propeller selection and flight conditions (velocity, angle of incidence) to the numerical details of the wake discretization and vortex core model.
 
-<img width="2560" height="1380" alt="image" src="https://github.com/user-attachments/assets/78fb9c1d-7ce0-40a8-b46c-02b4f6378441" />
+<img width="2996" height="1874" alt="CleanShot 2025-07-27 at 02 02 13@2x" src="https://github.com/user-attachments/assets/ea51b1a1-17a9-4bca-893b-969c69f5213a" />
 
 ### Live Wake Visualization
+
+https://github.com/user-attachments/assets/63215b23-d7e6-47ff-94d0-5ae12465593d
 
 https://github.com/user-attachments/assets/9059d387-2025-40d8-8dd0-6631dacbcbb5
 
