@@ -16,7 +16,7 @@ VortexBlade is built on a first-principles approach to fluid dynamics. Unlike si
 
 * **Biot-Savart Law:** The velocity induced by each straight-line vortex segment on every other point in the flow field (both on the blades and in the wake) is calculated using the Biot-Savart law. This fundamental law of electromagnetism, applied to fluid dynamics, relates the strength and geometry of a vortex element to the velocity it induces.
 
-* **Vortex Core Growth Model:** To avoid the physical and mathematical singularity at the center of a vortex filament (where induced velocity would be infinite), a vortex core model is implemented. The solver uses a viscous core growth model where each filament is given an initial core radius based on the blade's zero-lift drag. As the vortex filament ages, its core grows based on the effects of turbulent viscosity, realistically diffusing the vorticity over time and ensuring a stable, physical solution.
+* **Vortex Core Growth Model:** To avoid the physical and mathematical singularity at the center of a vortex filament, a viscous core model is implemented. The core radius of each filament evolves at every time step according to a turbulent viscosity model. Critically, the turbulent viscosity coefficient is calculated based on the local strain rate of the filament. This allows the core to grow dynamically in response to physical vortex stretching, realistically diffusing the vorticity over time and ensuring a stable, physical solution.
 
 ---
 
