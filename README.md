@@ -44,6 +44,7 @@ VortexBlade is built on a first-principles approach to fluid dynamics. Unlike si
 ### Main Application Interface
 
 The intuitive GUI gives you full control over every aspect of the simulation, from propeller selection and flight conditions (velocity, angle of incidence) to the numerical details of the wake discretization and vortex core model.
+
 V1.2 Axial Flow
 <img width="1780" height="1324" alt="image" src="https://github.com/user-attachments/assets/e6db4046-dfad-4c0f-b475-432378ad5225" />
 
