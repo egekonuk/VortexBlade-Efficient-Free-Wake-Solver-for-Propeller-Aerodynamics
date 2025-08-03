@@ -4,6 +4,8 @@
 <img width="512" height="512" alt="VortexBlade Logo" src="https://github.com/user-attachments/assets/77bc0471-584e-447a-8ddc-cbee6d75a04d" />
 </p>
 
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2025a%2B-orange)](https://www.mathworks.com/)
+
 **VortexBlade is an advanced aerodynamic analysis tool that combines a three-dimensional, unsteady free-wake vortex method with a Blade Element Momentum (BEM) approach to deliver mid-fidelity performance predictions for propellers and rotors. By simulating the full wake development, it overcomes the inherent limitations of standalone BEMT-based approaches, especially in complex flow conditions.**
 
 ---
