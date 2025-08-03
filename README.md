@@ -20,13 +20,13 @@ VortexBlade is built on a first-principles approach to fluid dynamics. Unlike si
 
 * **Vortex Core Growth Model:** To avoid the physical and mathematical singularity at the center of a vortex filament, a viscous core model is implemented. The core radius of each filament evolves at every time step according to a turbulent viscosity model. The turbulent viscosity ($\nu_t$) is first calculated based on the local vortex strength ($\Gamma$) and kinematic viscosity ($\nu$):
 
-    $$\nu_t = \nu \left(1 + C_1 \left(\frac{|\Gamma|}{\nu}\right)^n\right)$$
+    $$\epsilon = \frac{\Delta l}{l}$$
 
-    The core radius ($r_c$) then grows with time ($t$) from its initial radius ($r_{c,0}$), driven by this turbulent viscosity:
+    The core radius ($r_c$) is then updated from its previous value ($r_{c,0}$) at each time step ($\Delta t$) using the following relationship, which accounts for turbulent viscosity ($\nu_t$) and the mitigating effect of vortex stretching through the strain rate:
 
-    $$r_c(t) = \sqrt{r_{c,0}^2 + 4a \nu_t t}$$
+    $$r_c = r_{c,0} + \sqrt{\frac{4a\nu_t \Delta t}{1+\epsilon}}$$
 
-    This allows the core to grow dynamically in response to physical vortex stretching, realistically diffusing the vorticity over time and ensuring a stable, physical solution.
+    This allows the core to grow dynamically, realistically diffusing the vorticity over time while accounting for physical vortex stretching, which ensures a stable solution.
 
 ---
 
