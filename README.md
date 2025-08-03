@@ -1,7 +1,7 @@
 # VortexBlade: A Mid-Fidelity Free-Wake Solver for Propeller Aerodynamics
 
 <p align="center">
-<img width="512" height="512" alt="VortexBlade Logo" src="https://github.com/user-attachments/assets/77bc0471-584e-447a-8ddc-cbee6d75a04d" />
+<img width="512" height="512" alt="VortexBlade_Logo_light" src="https://github.com/user-attachments/assets/ee38d533-15e2-4ec5-a774-2b0e9a2a0eea" />
 </p>
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2025a%2B-orange)](https://www.mathworks.com/)
