@@ -16,21 +16,15 @@ VortexBlade is built on a first-principles approach to fluid dynamics. Unlike si
 
 * **Biot-Savart Law:** The velocity induced by each straight-line vortex segment on every other point in the flow field (both on the blades and in the wake) is calculated using the Biot-Savart law. This fundamental law relates the strength ($\Gamma$) and geometry of a vortex element ($d\vec{l}$) to the velocity it induces ($\vec{V}$) at a point defined by the position vector $\vec{r}$.
 
-    $$
-    \vec{V} = \frac{\Gamma}{4\pi} \int \frac{d\vec{l} \times \vec{r}}{|\vec{r}|^3}
-    $$
+    $$\vec{V} = \frac{\Gamma}{4\pi} \int \frac{d\vec{l} \times \vec{r}}{|\vec{r}|^3}$$
 
 * **Vortex Core Growth Model:** To avoid the physical and mathematical singularity at the center of a vortex filament, a viscous core model is implemented. The core radius of each filament evolves at every time step according to a turbulent viscosity model. The turbulent viscosity ($\nu_t$) is first calculated based on the local vortex strength ($\Gamma$) and kinematic viscosity ($\nu$):
 
-    $$
-    \nu_t = \nu \left(1 + C_1 \left(\frac{|\Gamma|}{\nu}\right)^n\right)
-    $$
+    $$\nu_t = \nu \left(1 + C_1 \left(\frac{|\Gamma|}{\nu}\right)^n\right)$$
 
     The core radius ($r_c$) then grows with time ($t$) from its initial radius ($r_{c,0}$), driven by this turbulent viscosity:
 
-    $$
-    r_c(t) = \sqrt{r_{c,0}^2 + 4a \nu_t t}
-    $$
+    $$r_c(t) = \sqrt{r_{c,0}^2 + 4a \nu_t t}$$
 
     This allows the core to grow dynamically in response to physical vortex stretching, realistically diffusing the vorticity over time and ensuring a stable, physical solution.
 
