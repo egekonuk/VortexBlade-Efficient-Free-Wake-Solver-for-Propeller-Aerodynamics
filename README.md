@@ -46,6 +46,14 @@ VortexBlade is built on a first-principles approach to fluid dynamics. Unlike si
 
 ## Version Changelog
 
+### **Version 2.1**
+* **Vortex Dissipation Integrated**
+    * Tuning Parameter Button Added for Emprical Free-Wake Sub-Models(Inviscid Core Growth, Wake Stretching/Dissipation, Vortex Dissipation).
+   
+$$Γ_V(t)=Γ_0 \times exp⁡(-b_1 t)$$
+
+*  **Wake plot updated to display vortex sheets and wake segments numbers**
+
 ### **Version 2.0**
 
 * **NeuralFoil Integration:**
