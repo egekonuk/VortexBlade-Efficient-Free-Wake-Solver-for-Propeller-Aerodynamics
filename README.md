@@ -1,7 +1,7 @@
 # VortexBlade: A Mid-Fidelity Free-Wake Solver for Propeller Aerodynamics
 
 <p align="center">
-<img width="512" height="512" alt="VortexBlade_Logo_light" src="https://github.com/user-attachments/assets/ee38d533-15e2-4ec5-a774-2b0e9a2a0eea" />
+<img width="512" height="512" alt="VortexBlade_Logo_2" src="https://github.com/user-attachments/assets/cfcad4ab-c427-4498-a999-86b33bf5e111" />
 </p>
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2025a%2B-orange)](https://www.mathworks.com/)
@@ -80,8 +80,15 @@ $$Γ_V(t)=Γ_0 \times exp⁡(-b_1 t)$$
 
 The intuitive GUI gives you full control over every aspect of the simulation, from propeller selection and flight conditions (velocity, angle of incidence) to the numerical details of the wake discretization and vortex core model.
 
+V2.1 Skewed Flow
+
+<img width="3024" height="1836" alt="CleanShot 2025-08-13 at 12 50 07@2x" src="https://github.com/user-attachments/assets/290e89a5-3166-4219-a321-46362655dfa4" />
+
 V1.2 Axial Flow
+
 <img width="1780" height="1324" alt="image" src="https://github.com/user-attachments/assets/e6db4046-dfad-4c0f-b475-432378ad5225" />
+
+V1 Far-Wake Propagation
 
 <img width="2996" height="1874" alt="CleanShot 2025-07-27 at 02 02 13@2x" src="https://github.com/user-attachments/assets/ea51b1a1-17a9-4bca-893b-969c69f5213a" />
 
